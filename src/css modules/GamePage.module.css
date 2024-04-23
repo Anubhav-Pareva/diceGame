@@ -1,0 +1,39 @@
+.gaming_header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 500px;
+    align-items: center;
+}
+.gaming_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.gaming_btn{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.gaming_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.rule_box{
+    background-color: #FBF1F1;
+    border: 1px solid var(--black);
+    padding: 20px;
+    margin: 50px;
+}
+.rule_box h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.rule_box ul{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}

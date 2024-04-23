@@ -1,0 +1,20 @@
+.not_selected{
+ width: 72px;
+ height: 72px;
+ background-color: var(--white);
+ color: var(--black);
+ border: 1px solid var(--black);
+}
+.selected{
+    width: 72px;
+ height: 72px;
+ background-color: var(--black);
+ color: var(--white);
+ border: none;
+}
+button{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    cursor: pointer;
+}
